@@ -1,0 +1,116 @@
+@font-face {
+    font-family: PT Serif;
+    src: url('../fonts/PTSerif-Regular.ttf');
+}
+@font-face {
+    font-family: HK-Grotesk Medium;
+    src: url('../fonts/HKGrotesk-Medium.otf');
+}
+@font-face {
+    font-family: HK-Grotesk Light;
+    src: url('../fonts/HKGrotesk-Light.otf');
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+nav {
+    flex: 0 1 auto;
+    display: flex;
+    margin-top: 3rem;
+}
+
+nav span {
+    margin-left: 10rem;
+    font-family: HK-Grotesk Medium;
+    font-size: 18px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+#nav-links {
+    display: flex;
+    margin: 0rem 10rem 0rem 15rem;
+    flex-grow: 2;
+    justify-content: space-evenly;
+}
+
+#nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Open Sauce Light;
+}
+
+#nav-links li a:hover {
+    font-size: 18px;
+}
+
+#left-section {
+    margin-top: 5rem;
+}
+
+#left-section h1 {
+    font-family: PT Serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+#left-section button {
+    border: none;
+    background-color: #d25525;
+    font-family: HK-Grotesk Medium;
+    font-size: 18px;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 2rem;
+}
+
+#left-section button:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
+
+#right-section {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.li-item {
+    display: flex;
+}
+
+.li-item .description {
+    margin-left: 2rem;
+    max-width: 30ch;
+}
+
+.description h2 {
+    font-family: HK-Grotesk Medium;
+    font-size: 20px;
+}
+
+.description p {
+    font-family: HK-Grotesk Light;
+    font-size: 13px;
+}
+
+body img {
+    width: 250px;
+}
+

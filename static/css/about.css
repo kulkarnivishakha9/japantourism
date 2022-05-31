@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Chunk Five;
+    src: url('../fonts/ChunkFive-Regular.otf');
+}
+@font-face {
+    font-family: Kollektif;
+    src: url('../fonts/Kollektif.ttf');
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    background-image: url('../../images/about.png');
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: right;
+}
+header {
+    background-color: (118,60,0)
+    opacity: 0.5;
+}
+
+nav {
+    flex: 0 1 auto;
+    display: flex;
+    margin-top: 3rem;
+}
+
+nav span {
+    margin-left: 10rem;
+    font-family: HK-Grotesk Medium;
+    font-size: 20px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+#nav-links {
+    display: flex;
+    margin: 0rem 10rem 0rem 15rem;
+    flex-grow: 2;
+    justify-content: space-evenly;
+}
+
+#nav-links li a {
+    color: black ;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Open Sauce Light;
+}
+
+#nav-links li a:hover {
+    font-size: 18px;
+    color: black;
+}
+
+ body section {
+    margin-left: 10rem;
+}
+/* 
+body section h1 {
+    font-family: Chunk Five;
+    font-size: 54.3px;
+    color: #763c00;
+}
+
+body section li {
+    font-family: Kollektif;
+    font-size: 19px;
+    color: #763c00;
+} */
+
+
+
+#searchbar {
+    /* background-color: #c43c13; */
+    background-color: #763c00;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 20rem;
+    font-size: 18px;
+    color: white;
+}
+
+#searchbar::placeholder {
+    color: white;
+}
+
+section {
+    /* padding-left: 10%; */
+    padding-top: 10%;
+    color: #5f350b;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
